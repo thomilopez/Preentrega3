@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css');
+
+* {
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+    color: black
+}
+
+html {
+    min-height: 100%;
+    background-color: rgb(54, 71, 146);
+}
+body{
+    margin: 10px;
+}
+.center {
+    text-align: center;
+    color: ;
+}
+
+h1 {
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+label {
+    font-weight: 400;
+    color: black;
+}
+
+.div-cotizador {
+    background-color: white;
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-color: whitesmoke;
+    box-shadow: 26px 28px 15px -8px rgba(0,0,0,0.15);
+    border-radius: 0.7rem;
+}
+
+select, input {
+    min-width: 50% !important;
+    width: 70% !important;
+}
+
+.separador {
+    margin: 20px;
+}
+
+.importe {
+    color: rgb(6, 26, 114);
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.guardar {
+    border: 1px transparent;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+.guardar:hover {
+    background-color: rgb(163, 77, 38);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.guardar:active {
+    background-color: black !important;
+}
+
+.ocultar {
+    visibility: hidden;
+}
+
+button:hover {
+    color: rgb(139, 136, 136) !important;
+    background-color: rgb(31, 29, 32) !important;
+}
+
+button:active {
+    background-color: rgb(70, 38, 38) !important;
+}
