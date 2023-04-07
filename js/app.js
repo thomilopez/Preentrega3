@@ -8,7 +8,7 @@ const btnGuardar = document.querySelector("span.guardar")
 function cargarCotizador(select, array) {
     if (array.length > 0) {
         array.forEach(element => {
-            select.innerHTML += `<option value="${element.tipo}">${element.tipo}</option>`
+            select.innerHTML += `<option value="${element.valor}">${element.tipo}</option>`
         });
     }
 }
@@ -35,7 +35,7 @@ btnCotizar.addEventListener("click", ()=> {
 
 btnGuardar.addEventListener("click", ()=>{
     const historial = {
-        Pisos: selectPiso [selectPiso.options.selectedIndex].textContent,
+        Pisos: selectPisos [selectPisos.options.selectedIndex].textContent,
         Medio: selectMedio [selectMedio.options.selectedIndex].textContent,
         Metros2: inputMetros2.value
     }
