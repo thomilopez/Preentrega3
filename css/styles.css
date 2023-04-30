@@ -11,40 +11,47 @@
 
 html {
     min-height: 100%;
-    background-color: rgb(54, 71, 146);
+    background-color: rgb(179, 142, 142);
 }
 body{
+    background-color: rgb(235, 208, 208);
     margin: 10px;
+
 }
 .center {
     text-align: center;
-    color: ;
+    color: black;
+    opacity: 1;
 }
 
 h1 {
     font-weight: 400;
-    color: whitesmoke;
+    color: rgb(253, 144, 144);
+    opacity: 1;
 }
 
 label {
     font-weight: 400;
     color: black;
+    opacity: 1;
 }
 
 .div-cotizador {
-    background-color: white;
+    background-color: rgb(253, 174, 174);
     color: black;
     margin-left: 5%;
     margin-right: 5%;
     padding: 10px;
-    border-color: whitesmoke;
+    border-color: rgb(255, 192, 192);
     box-shadow: 26px 28px 15px -8px rgba(0,0,0,0.15);
     border-radius: 0.7rem;
+    opacity: 1;
 }
 
 select, input {
     min-width: 50% !important;
     width: 70% !important;
+
 }
 
 .separador {
@@ -55,6 +62,7 @@ select, input {
     color: rgb(6, 26, 114);
     font-size: x-large;
     font-weight: 700;
+    opacity: 1;
 }
 
 .guardar {

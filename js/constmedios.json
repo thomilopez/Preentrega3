@@ -1,0 +1,4 @@
+[
+    {"tipo":"Efectivo/Debito", "valor": 0.9},
+    {"tipo":"Tarjeta de credito", "valor": 1}
+]

@@ -1,0 +1,6 @@
+[
+    {"tipo":"Flotante", "valor": 2100},
+    {"tipo":"Porcelanato", "valor": 2500},
+    {"tipo":"Vinilicos", "valor": 2450},
+    {"tipo":"Ceramica", "valor": 2700}
+]
